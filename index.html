@@ -1,0 +1,129 @@
+<!-- 
+
+      ************************************************************
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+{   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  }
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+      ************************************************************
+ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=7" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="author" content="Aryan Maurya" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="favicon.png" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <meta
+          name="description"
+          content="This is online crazy car game build for your imporove thing skill in this domain by aryan maurya enjoy your game"
+        />
+        <meta name="keywords" content="Crazy Car, racing game, car simulator, arcade racing, high-speed driving, stunt game, thrilling race, car challenges, drift racing, adrenaline rush, crazy tracks, car upgrades, nitro boost, multiplayer racing, action-packed, mobile gaming, virtual racing, fast-paced, dynamic gameplay, gaming excitement, racing adventure">
+
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <title>Crazy Car [ Game ]</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     </head>
+    <body>
+    
+        <!-- My Car -->
+    
+        <div id="car">
+            <img id="my_car"  src="https://assets.cvnaassets.com/home-assets/top-down_car.png">
+        </div>
+        
+        <!-- Opponent Car -->
+        
+        <div id="oponent-car">
+            <img src="https://assets.cvnaassets.com/home-assets/top-down_car.png" id="car1">
+            <img src="https://assets.cvnaassets.com/home-assets/top-down_car.png" id="car2">
+            <img src="https://assets.cvnaassets.com/home-assets/top-down_car.png" id="car3">
+            <img src="https://assets.cvnaassets.com/home-assets/top-down_car.png" id="car4">
+            
+        </div>
+        
+        <!-- Road -->
+        
+        
+        <div id="road">
+            <div class="line_1" id="line_1"></div>
+            <div class="line_2" id="line_2"></div>
+            <div class="line_3" id="line_3"></div>
+            <div class="line_4" id="line_4"></div>
+            
+        </div>
+        
+        <!-- Score -->
+        
+        <div class="score">
+            <p class="scoreText">Score : <span id="score">0</span></p>
+        </div>
+        
+        <!-- Splash Screen -->
+        
+        <div id="splash_screen">
+            <h2>CRAZY CAR<sup>V1.0</sup></h2>
+            <button class="btn" id="start_game">Start</button>
+            <button class="btn" id="help">Help</button>
+            <p id="copy">© Arb</p>
+        </div>
+        
+        <!-- Timer -->
+        
+        
+        <p id="timer">1</p>
+        
+        <!-- Restart -->
+        
+        <button id="rstart">RESTART</button>
+        <script>
+             Swal.fire({
+        icon: "success",
+        title: 'Best of Luck ',
+       
+        timer: 2800,
+        showClass: {
+          popup: `
+     animate__animated
+     animate__fadeInUp
+     animate__faster
+   `,
+        },
+        hideClass: {
+          popup: `
+     animate__animated
+     animate__fadeOutDown
+     animate__faster
+   `,
+        },
+      });
+        </script>
+    </body>
+</html>
+<!-- 
+
+      ************************************************************
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+{   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  }
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+      ************************************************************
+ -->

@@ -1,0 +1,269 @@
+/* 
+
+     ============================================================
+      
+          _____________   ^^^^^^^^^^    ____________________
+
+[   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  ]
+
+          _____________   ^^^^^^^^^^    ____________________
+
+     ============================================================
+
+*/
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+#car {
+    position: absolute;
+    top: 444px;
+    left: 155px;
+
+}
+
+#oponent-car {
+    overflow: hidden;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+}
+
+#my_car {
+    height: 100px;
+    width: 50px;
+    transform: rotate(-180deg);
+    position: absolute;
+    z-index: 100;
+}
+
+#road {
+    height: 100vh;
+    width: 100vw;
+    background: #262626;
+    position: absolute;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.line_1,
+.line_2,
+.line_3,
+.line_4 {
+    height: 120px;
+    width: 13px;
+    background: #aaa;
+    position: absolute;
+    z-index: 0;
+}
+
+.line_1 {
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.line_2 {
+    top: 158.8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    //display: none;
+}
+
+.line_3 {
+    top: 318.6px;
+    left: 50%;
+    transform: translateX(-50%);
+    //display: none;
+}
+
+.line_4 {
+    bottom: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#canvas {
+    height: 100vh;
+    width: 100vw;
+    //background: red;
+    position: absolute;
+    top: 0;
+}
+
+#car1,
+#car2,
+#car3,
+#car4 {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+
+}
+
+#car1 {
+    top: 80px;
+    left: 80px;
+}
+
+#car2 {
+    top: 250px;
+    left: 190px;
+}
+
+#car3 {
+    top: 20px;
+    left: 300px;
+}
+
+#car4 {
+    top: 200px;
+    left: 99px;
+}
+
+#car1.hide {
+    opacity: 0;
+    transition: .3s;
+}
+
+#car2.hide {
+    opacity: 0;
+    transition: .3s;
+}
+
+#car3.hide {
+    opacity: 0;
+    transition: .3s;
+
+}
+
+#car4.hide {
+    opacity: 0;
+    transition: .3s;
+}
+
+.score {
+    position: absolute;
+    z-index: 500;
+    height: 35px;
+    width: 80px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.scoreText {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 8pt;
+}
+
+#splash_screen {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 5000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+#splash_screen.hide {
+    opacity: 0;
+}
+
+.btn {
+    height: 70px;
+    width: 120px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18pt;
+    cursor: pointer;
+    margin: 0 5px 0 5px;
+}
+
+button:focus {
+    outline: none;
+}
+
+h2 {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 0;
+    font-size: 25pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+sup {
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+}
+
+#copy {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 10pt;
+    bottom: 12px;
+}
+
+#timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 35pt;
+    font-weight: bold;
+    z-index: 4000;
+    display: none;
+}
+
+#rstart {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 35px;
+    width: 100px;
+    background: #3f3675;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 6000;
+}
+
+/* 
+
+     ============================================================
+      
+          _____________   ^^^^^^^^^^    ____________________
+
+[   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  ]
+
+          _____________   ^^^^^^^^^^    ____________________
+
+     ============================================================
+
+*/
